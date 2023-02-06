@@ -1,3 +1,5 @@
+# Read the documentation here : https://mathiaslec.github.io/cnc-shield-flap-case/
+![](images/box_example.JPG)  
 # This project is documented with GitBuilding
 
 ## What is GitBuilding
