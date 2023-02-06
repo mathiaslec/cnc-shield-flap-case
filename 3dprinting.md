@@ -3,7 +3,7 @@
 
 {{BOM}}
 
-The CAD parts for the flap case were created using FreeCAD and are available on the [GitHub repository linked](freecad/cad/psu_xs_V4.FCStd).
+The CAD parts for the flap case were created using FreeCAD and are available on the [GitHub repository linked](freecad/cad/psu_xs_V5.FCStd).
 
 The case is composed of three parts: the base, a small lid, and the main lid. The components are made with [PLA](parts.yaml#pla){qty:150g} material using a [FDM 3D printer](tools.yaml#3dprinter){qty:1, cat:tool}.
 

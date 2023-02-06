@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+# Read the documentation here : 
+![](images/box_example.JPG)  
 # This project is documented with GitBuilding
 
 ## What is GitBuilding
@@ -23,6 +24,3 @@ documentation. More detail on the documentation is available on the
 [GitBuilding website](https://gitbuilding.io/syntax/). There is also additional
 [syntax for configuration](https://gitbuilding.io/syntax/buildconfsyntax), and for
 [part libraries](https://gitbuilding.io/syntax/builduplibrary/).
-=======
-# cnc-shield-flap-case
->>>>>>> 4955d31210f5421412409bdeb1fbf4aa1f440350
