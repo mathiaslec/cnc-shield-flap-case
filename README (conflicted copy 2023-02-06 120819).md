@@ -1,3 +1,5 @@
+# Read the documentation here : 
+![](images/box_example.JPG)  
 # This project is documented with GitBuilding
 
 ## What is GitBuilding
