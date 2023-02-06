@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CNC shield flap case</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./static/Logo/favicon.ico" />
+<link rel="icon" type="image/png" href="./static/Logo/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="./static/Logo/favicon-16x16.png" sizes="16x16" />
+
+    <link href="./static/style.css" rel="stylesheet">
+        </head>
+<body>
+<header class="site-header">
+    <div class="wrapper">
+        <div class=header-text>
+   
+    <h1 class="site-title">CNC shield flap case</h1>
+   
+    <p class="author">by Mathias Lechelon</p>
+    <p class="affiliation">Turing Center for Living Systems (CENTURI)</p>
+</div>
+            </div>
+</header>
+<div class="page-content">
+            <div>
+            <nav class="sidebar">
+                <a href="#" class="menu-icon">
+                <svg viewBox="0 0 18 15">
+                    <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                </svg>
+                </a>
+                <ul class="nav-list">
+                <li>
+    <a class="navhome" href="./">
+        CNC shield flap case
+    </a>
+</li>
+<li class="not-active">
+    <a class="not-active" href="./index_BOM.html">
+        Bill of Materials
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./3dprinting.html">
+        3D printing
+    </a>
+    </li>
+<li class="active">
+    <a class="active" href="./assembling.html">
+        Assembling
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./testing.html">
+        Testing
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./more_info.html">
+        More information
+    </a>
+    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="wrapper">
+    <h1 id="assembling">Assembling</h1>
+<div class="pagebom">
+<h3 id="parts">Parts</h3>
+<ul>
+<li>36 cm of <a Class="bom" href="parts/16awgBlackWire.html">16awg/1.5mm² black wire</a> </li>
+<li>36 cm of <a Class="bom" href="parts/16awgRedWire.html">16awg/1.5mm² red wire</a> </li>
+<li>1 <a Class="bom" href="parts/Arduino.html">Arduino Uno board</a> </li>
+<li>4 <a Class="bom" href="parts/BladeReceptacleConnector.html">blade receptacle connector</a> </li>
+<li>4 <a Class="bom" href="parts/CableTies.html">cable ties</a> </li>
+<li>1 <a Class="bom" href="parts/CNCShield.html">CNC shield</a> </li>
+<li>1 <a Class="bom" href="parts/DCconnector.html">DC connector socket</a> </li>
+<li>1 <a Class="bom" href="parts/Fan.html">fan</a> </li>
+<li>1 <a Class="bom" href="parts/Ferrule.html">ferrule</a> </li>
+<li>30 mm of <a Class="bom" href="parts/Heatshrink.html">heat-shrink tube</a> </li>
+<li>5 <a Class="bom" href="parts/JumperWires.html">jumper wires</a> </li>
+<li>1 <a Class="bom" href="parts/KillSwitch.html">kill switch</a> </li>
+<li>4 <a Class="bom" href="parts/M3x12mm.html">M3x12mm screws</a> </li>
+<li>8 <a Class="bom" href="parts/M3x6mm.html">M3x6mm screws</a> </li>
+<li>1 <a Class="bom" href="parts/NoiseFilteringPCB.html">noise filtering PCB</a> </li>
+<li>1 <a Class="bom" href="parts/PrefabBraid.html">pre-fab braid</a> </li>
+<li>1 <a Class="bom" href="parts/ToggleSwitch.html">toggle switch</a> </li>
+<li>2 <a Class="bom" href="parts/Wagos.html">wagos</a> </li>
+</ul>
+<h3 id="tools">Tools</h3>
+<ul>
+<li>1 <a Class="bom" href="tools/AllenWrench.html">Allen wrench</a> </li>
+<li>1 <a Class="bom" href="tools/CrimpingPliers.html">crimping pliers</a> </li>
+<li>1 <a Class="bom" href="tools/FlatScrewdriver.html">small flat screwdriver</a> </li>
+<li>1 <a Class="bom" href="tools/SolderingIron.html">soldering iron</a> </li>
+<li>1 <a Class="bom" href="tools/WireStripper.html">wire stripper</a> </li>
+</ul>
+</div>
+<h2 class="page-step" id="wiring">Step 1: Wiring</h2>
+<p>Before assembly, you need to prepare a few wires. You will need wire strippers and crimpers to complete this step.</p>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/wire-stripper.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/wire-stripper2.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/crimper1.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/crimper2.JPG" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show0" src="images/wire-stripper.JPG" alt=""/></div>
+
+<div class="info-block">
+<p><strong>Note about stripped wires</strong></p>
+<p>The length of the stripped wire will depend on the component it is connected to. Make sure to refer to the instructions for each component if you are using different brands. The following reference lengths are provided:<br />
+- 11 mm for Wagos<br />
+- 8 mm for ferrules<br />
+- 5 mm for blade receptacle connectors<br />
+These lengths are only guidelines and may vary based on the specific components and wiring requirements, so be sure to consult the instructions for each component before stripping the wires.</p>
+</div>
+<h3 id="jumper-wires">Jumper wires</h3>
+<p>If you are using the <a href="parts/NoiseFilteringPCB.html">noise filtering PCB</a>, you may need up to 5 <a href="parts/JumperWires.html">jumper wires</a> to connect the CNC shield to the PCB.<br />
+<img alt="" src="images/jumpers.JPG" title="" />  </p>
+<h3 id="pre-fab-braid">Pre-fab braid</h3>
+<p>You need 1 <a href="parts/PrefabBraid.html">pre-fab braid</a> (to connect to the emergency button to the CNC shield). Just cut the excess of wires to get 20 cm, then strip about 1 cm on each wire with (for example with a <a href="tools/WireStripper.html">wire stripper</a>). Attach the stripped wires to the <a href="parts/KillSwitch.html">kill switch</a>. 
+<img alt="" src="images/braid.JPG" title="" />  </p>
+<h3 id="connections-to-power-supply">Connections to power supply</h3>
+<p>A few wires and components are needed : </p>
+<ul>
+<li>8 cm of a <a href="parts/16awgRedWire.html">16awg/1.5mm² red wire</a>. Strip about 5 mm on one side with the <a href="tools/WireStripper.html" title="">wire stripper</a>, and solder this wire (with a <a href="tools/SolderingIron.html">soldering iron</a> and <a href="parts/SolderingWire.html" title="">soldering wire</a>) to the <strong>central pin</strong> of the <a href="parts/DCconnector.html">DC connector socket</a>. Make sure to add about 15 mm long <a href="parts/Heatshrink.html">heat-shrink tube</a> of suitable diameter. Strip the other end of the wire of about 11 mm.</li>
+<li>8 cm of a <a href="parts/16awgBlackWire.html">16awg/1.5mm² black wire</a>. Strip about 5 mm on one side with the <a href="tools/WireStripper.html" title="">wire stripper</a>, and solder this wire (with a <a href="tools/SolderingIron.html">soldering iron</a> and <a href="parts/SolderingWire.html" title="">soldering wire</a>) to the <strong>external pin</strong> of the <a href="parts/DCconnector.html" title="">DC connector socket</a>. Make sure to add about 15 mm long <a href="parts/Heatshrink.html">heat-shrink tube</a> of suitable diameter. Strip the other end of the wire of about 11 mm.<br />
+<img alt="" src="images/8cm_1.png" title="" />   </li>
+<li>Another 8 cm long <a href="parts/16awgRedWire.html">16awg/1.5mm² red wire</a>. Strip one side of this wire on about 11 mm, and strip the other end on about 5 mm and add a <a href="parts/BladeReceptacleConnector.html">blade receptacle connector</a>. Crimp the blade connector with a <a href="tools/CrimpingPliers.html">crimping pliers</a>.</li>
+<li>Another 8 cm long <a href="parts/16awgBlackWire.html">16awg/1.5mm² black wire</a>. Strip one side of this wire on about 11 mm, and strip the other end on about 5 mm and add a <a href="parts/BladeReceptacleConnector.html">blade receptacle connector</a>. Crimp the blade connector with a <a href="tools/CrimpingPliers.html">crimping pliers</a>.
+<img alt="" src="images/8cm_2.png" title="" />   </li>
+<li>20 cm of a <a href="parts/16awgBlackWire.html">16awg/1.5mm² black wire</a>. Strip one side of this wire on about 11 mm, then strip the other end on about 5 mm and add a <a href="parts/BladeReceptacleConnector.html">blade receptacle connector</a>.</li>
+<li>20 cm of a <a href="parts/16awgRedWire.html">16awg/1.5mm² red wire</a>. Strip one side of this wire on about 8 mm, and add a <a href="parts/Ferrule.html">ferrule</a>, then strip the other end on about 5 mm and add a <a href="parts/BladeReceptacleConnector.html">blade receptacle connector</a>.
+<img alt="" src="images/20cm.png" title="" />   </li>
+</ul>
+<p>Here are all the 16awg/1.5mm² wires:<br />
+<img alt="" src="images/all_wires.JPG" title="" />   </p>
+<h3 id="fan-wires">Fan wires</h3>
+<p>Make sure the <a href="parts/Fan.html">fan</a> wires are about 30 cm long, then strip about 11 mm on each end.
+<img alt="" src="images/fan.JPG" title="" />   </p>
+<h2 class="page-step" id="first-components-to-attach">Step 2: First components to attach</h2>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/kill-switch1.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/kill-switch2.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/kill-switch3.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/kill-switch4.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/dc1.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/wagos.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/switch1.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/switch2.JPG" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show1" src="images/kill-switch1.JPG" alt=""/></div>
+<p>The following components are easy to install into the case:</p>
+<ul>
+<li>Detach the 2 parts of the <a href="parts/KillSwitch.html" title="">kill switch</a>, place the button on the lid, attach it with its plastic nut, then clip the last part to fully assemble it.  </li>
+<li>Attach the DC connector into the case.</li>
+<li>Clip both <a href="parts/Wagos.html">wagos</a> into the case.</li>
+<li>Snap-in the <a href="parts/ToggleSwitch.html">toggle switch</a> to the small lid. </li>
+</ul>
+<h2 class="page-step" id="components-attached-with-screws">Step 3: Components attached with screws</h2>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show2').src=this.src" src="images/arduino.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show2').src=this.src" src="images/pcb.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show2').src=this.src" src="images/fan2.JPG" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show2" src="images/arduino.JPG" alt=""/></div>
+<p>A few components need screws to attach them to the box:</p>
+<ul>
+<li>The <a href="parts/Arduino.html">Arduino Uno board</a> needs 4 <a href="parts/M3x6mm.html">M3x6mm screws</a>. </li>
+<li>The <a href="parts/NoiseFilteringPCB.html" title="">noise filtering PCB</a> needs 4 <a href="parts/M3x6mm.html">M3x6mm screws</a>;</li>
+<li>The <a href="parts/Fan.html" title="">fan</a> needs 4 <a href="parts/M3x12mm.html">M3x12mm screws</a>.</li>
+</ul>
+<p>Note: Use an <a href="tools/AllenWrench.html">Allen wrench</a> to attach the components securely.</p>
+<h2 class="page-step" id="final-assembling">Step 4: Final assembling</h2>
+<h3 id="wiring_1">Wiring</h3>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show3').src=this.src" src="images/allred.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show3').src=this.src" src="images/allblack.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show3').src=this.src" src="images/all-blade-connectors.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show3').src=this.src" src="images/black-red-cnc.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show3').src=this.src" src="images/wires-estop.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show3').src=this.src" src="images/wires-estop2.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show3').src=this.src" src="images/jumpers-shield.JPG" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show3" src="images/allred.JPG" alt=""/></div>
+<p>The last steps for the wiring are the following:</p>
+<ul>
+<li>Insert all red stripped wires into 1 <a href="parts/Wagos.html" title="">wago</a>.</li>
+<li>Insert all black stripped wires into the other <a href="parts/Wagos.html" title="">wago</a>.</li>
+<li>Attach the blade receptacle connector from the 8 cm black wire to the colored pin of the toggle switch (the one below the orange light). <em>If you bought another toggle switch, make sure to read the datasheet to check were the GND should be plugged</em>.</li>
+<li>Attach the blade receptacle connector from the 8 cm red wire to the opposite pin of the toggle switch.</li>
+<li>Attach the blade receptacle connector from the 20 cm long red wire to the centered pin of the toggle switch.</li>
+<li>Finally, insert the 20 cm long black and red wires with the ferrules into the "-" and "+" terminal block of the CNC shield, then tighten the screws with a <a href="tools/FlatScrewdriver.html">small flat screwdriver</a>. You can then plug the <a href="parts/CNCShield.html">CNC shield</a>.</li>
+</ul>
+<p>There are now a few wires to plug:  </p>
+<ul>
+<li>Attach the <a href="parts/PrefabBraid.html" title="">pre-fab braid</a> to the kill switch, and to the "E-STOP" pins on the CNC shield.</li>
+<li>If you have a noise filtering PCB, plug it with the 5 jumper wires to the CNC shield.</li>
+</ul>
+<h3 id="assemble-the-case">Assemble the case</h3>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show4').src=this.src" src="images/lid.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show4').src=this.src" src="images/smalllid.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show4').src=this.src" src="images/cableties.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show4').src=this.src" src="images/cableties2.JPG" alt="" />
+    <img onmouseover="getElementById('gallery-show4').src=this.src" src="images/cableties3.JPG" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show4" src="images/lid.JPG" alt=""/></div>
+<p>Attach the small lid then the lid onto the base.</p>
+<p>Now to organize these wires, you can use 2 <a href="parts/CableTies.html">cable ties</a> to attach the 20 cm long wires to the case, and 2 other <a href="parts/CableTies.html">cable ties</a> to attach the kill switch and fan wires together.</p>
+<hr />
+<p><a href="3dprinting.html">Previous page</a> | <a href="testing.html">Next page</a></p>
+    </div>
+</div>
+<footer class="site-footer">
+    <div class="wrapper">
+        <a target="_blank" rel="noopener noreferrer" href="https://gitbuilding.io">
+    <img class="icon" src="./static/Logo/GitBuilding500x.png" alt="GitBuilding logo">
+    <span class="info">Documentation powered by GitBuilding</span>
+</a>
+    <p class="author">©2023 Mathias Lechelon</p>
+    <p class="email">Contact: <a href="mailto:mathias.lechelon@univ-amu.fr">mathias.lechelon@univ-amu.fr</a></p>
+
+    </div>
+</footer></body>
+</html>
