@@ -1,0 +1,169 @@
+name: 
+    Name:
+    Suppliers:
+        Conrad:
+            PartNo:
+            Link: 
+USBCable: 
+    Name: USB B cable
+    Suppliers:
+        Conrad:
+            PartNo: AK-300105-005-S
+            Link: https://www.conrad.fr/fr/p/digitus-cable-usb-usb-2-0-usb-a-male-usb-b-male-0-50-m-noir-ak-300105-005-s-678048.html
+PowerSupply: 
+    Name: 12V 80W power supply
+    Suppliers:
+        Conrad:
+            PartNo: GSM90A12-P1M
+            Link: https://www.conrad.fr/fr/p/alimentation-de-table-a-tension-fixe-mean-well-gsm90a12-p1m-n-a-6-67-a-80-w-1-pc-s-1838030.html
+CableTies: 
+    Name: Cable ties
+    Suppliers:
+        Conrad:
+            PartNo: 1577931
+            Link: https://www.conrad.fr/fr/p/tru-components-1577931-serre-cable-120-mm-2-mm-blanc-stabilise-a-la-chaleur-100-pc-s-1577931.html
+CNCShield: 
+    Name: CNC Shield
+    Suppliers:
+        Conrad:
+            PartNo: ARD-CNC-Kit1
+            Link: https://www.conrad.fr/fr/p/joy-it-ard-cnc-kit1-convient-pour-cartes-arduino-arduino-uno-1-pc-s-1646889.html
+M3x12mm: 
+    Name: M3 x 12 mm screws
+    Suppliers:
+        Conrad:
+            PartNo: 888739
+            Link: https://www.conrad.fr/fr/p/vis-cylindrique-toolcraft-888739-1-pc-s-m3-12-mm-tete-cylindrique-6-pans-interieurs-acier-inoxydable-n-a-888739.html
+M3x6mm: 
+    Name: M3 x 6 mm screws
+    Suppliers:
+        Conrad:
+            PartNo: 888735
+            Link: https://www.conrad.fr/fr/p/vis-cylindrique-toolcraft-888735-1-pc-s-m3-6-mm-tete-cylindrique-6-pans-interieurs-acier-inoxydable-n-a-888735.html
+Arduino: 
+    Name: Arduino Uno board
+    Suppliers:
+        Conrad:
+            PartNo: A000066
+            Link: https://www.conrad.fr/fr/p/carte-arduino-uno-rev3-version-dip-atmega328-1275279.html
+ToggleSwitch: 
+    Name: Toggle Switch
+    Suppliers:
+        Conrad:
+            PartNo: 1587832
+            Link: https://www.conrad.fr/fr/p/interrupteur-a-bascule-tru-components-tc-r13-66b2-02-b-b-1587832-12-v-dc-16-a-1-x-off-on-a-accrochage-1-pc-s-1587832.html
+Wagos: 
+    Name: 5 pins Wagos
+    Suppliers:
+        Conrad:
+            PartNo: 1188438
+            Link: https://www.conrad.fr/fr/p/borne-de-raccordement-wago-221-415-1-flexible-0-14-4-mm-rigide-0-2-4-mm-nombre-de-poles-num-5-transparent-orange-1188438.html
+Fan: 
+    Name: 12V fan
+    Suppliers:
+        Conrad:
+            PartNo: 171007
+            Link: https://www.conrad.fr/fr/p/sunon-ee40101s1-1000u-999-ventilateur-axial-12-v-dc-13-93-m-h-l-x-l-x-h-40-x-40-x-10-mm-1969356.html
+16awgRedWire: 
+    Name: 16AWG/1.5mm² Red Wire
+    Suppliers:
+        Conrad:
+            PartNo: 29133
+            Link: https://www.conrad.fr/fr/p/helukabel-29133-fil-de-cablage-h07v-k-1-x-1-50-mm-rouge-marchandise-vendue-au-metre-1524578.html
+16awgBlackWire: 
+    Name: 16AWG/1.5mm² Black Wire
+    Suppliers:
+        Conrad:
+            PartNo: 29129
+            Link: https://www.conrad.fr/fr/p/helukabel-29129-fil-de-cablage-h07v-k-1-x-1-50-mm-noir-marchandise-vendue-au-metre-1524579.html
+Heatshrink: 
+    Name: Heat-shrink tubes
+    Suppliers:
+        Conrad:
+            PartNo: HAS07
+            Link: https://www.conrad.fr/fr/p/toolland-has07-assortiment-de-gaines-thermoretractables-noir-1-set-2574855.html?searchType=SearchRedirect
+Ferrule: 
+    Name: Ferrules
+    Suppliers:
+        Conrad:
+            PartNo: 2620348
+            Link: https://www.conrad.com/p/quadrios-22c428-ferrule-15-mm-partially-insulated-black-1-set-2620348
+BladeReceptacleConnector: 
+    Name: Blade Receptacle Connector
+    Suppliers:
+        Conrad:
+            PartNo: 396108S
+            Link: https://www.conrad.com/p/vogt-verbindungstechnik-396108s-blade-receptacle-connector-width-48-mm-connector-thickness-08-mm-180-insulated-re-732370
+SolderingWire:
+    Name: Soldering Wire
+DCconnector:
+    Name: DC connector socket
+    Suppliers:
+        Conrad:
+            PartNo: 93038c237
+            Link: https://www.conrad.fr/fr/p/connecteur-basse-tension-embase-femelle-tru-components-93038c237-interieur-5-5-mm-2-5-mm-1-pc-s-1497959.html?searchType=SearchRedirect
+KillSwitch:
+    Name: Kill switch
+    Description: >
+        You need a NO kill switch to plug on the CNC shield.
+    Suppliers:
+        Conrad:
+            PartNo: 1233788
+            Link: https://www.conrad.fr/fr/p/deca-a20b-v4e20r-arret-d-urgence-avec-element-de-contact-240-v-ac-6-a-2-no-t-ip65-1-pc-s-1233788.html
+PrefabBraid:
+    Name: Pre-fab braid
+    Description: >
+        This are just two 26AWG/0.13mm² wires attached to the same double femelle dupont connector. We need only 20 cm or wire.
+    Specs:
+        Length: 20 cm. Cut the excess if needed.
+    Suppliers:
+        Conrad:
+            PartNo: 1570820
+            Link: https://www.conrad.fr/fr/p/cordon-fil-a-carte-assemble-tru-components-741213-nbr-total-de-poles-2-pas-2-54-mm-1-pc-s-1570820.html
+NoiseFilteringPCB:
+    Name: Noise filtering PCB
+    Description: >
+        Needed just if you want to avoid noise on limit swiches. The files can be found the the current [GRBL repository here](https://github.com/gnea/grbl/files/752923/Gerbers.zip), or in the pcb folder on this github repository.
+JumperWires:
+    Name: Jumper wires
+    Specs:
+        Lenth: about 15 cm or less 
+        Type: female-female
+    Suppliers:
+        Conrad: 
+            PartNo: MIKROE-511
+            Link: https://www.conrad.fr/fr/p/mikroelektronika-mikroe-511-1-pc-s-1221396.html
+M4x10PanSteel:
+    Name: M4x10 Pan Head Steel
+    Description: >
+        This is lots of text
+        about some screws?
+    Specs:
+        Head: Pan
+        Length: 10 mm
+        Material: Stainless Steel
+        Pitch: 0.7
+    Suppliers:
+        RS:
+            PartNo: 528-817
+            Link: https://uk.rs-online.com/web/p/machine-screws/0528817/
+        McMasterCarr:
+            PartNo: 90116A207
+            Link: https://www.mcmaster.com/90116A207
+Screwdriver_Philips_No2:
+    Name: No. 2 Phillips screwdriver
+    Description: >
+        No2 Phillips screwdriver. This is the correct size
+        form an M4 pan head screw
+    Specs:
+        Drive Size: No. 2   
+pla:
+    Name: PLA 
+    Description: >
+        PLA platic filament fitting your 3D printer. We used 1.75mm PLA filament for a CR-10S pro printer
+    Specs:
+        Material: Polylactic Acid
+    Suppliers:
+        Conrad:
+            PartNo: PMMA-1000-001
+            Link: https://www.conrad.fr/fr/p/maertz-pmma-1000-001-polyactic-acid-filament-pla-1-75-mm-750-g-noir-1-pc-s-2235041.html

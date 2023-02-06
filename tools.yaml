@@ -1,0 +1,72 @@
+name:
+    Name:
+    Suppliers:
+        Conrad:
+            PartNo:
+            Link:
+AllenWrench:
+    Name: 2.5 mm Allen wrench
+    Suppliers:
+        Conrad:
+            PartNo: 817257
+            Link: https://www.conrad.fr/fr/p/wera-354-pour-l-atelier-cle-coudee-pour-vis-a-6-pans-creux-taille-metrique-2-5-mm-longueur-de-la-lame-75-mm-817257.html
+FlatScrewdriver:
+    Name: Flat Screwdriver
+    Suppliers:
+        Conrad:
+            PartNo: 05117997001
+            Link: https://www.conrad.fr/fr/p/tournevis-pour-vis-a-fente-0-35-mm-x-2-5-mm-wera-2035-05117997001-longueur-de-la-lame-40-mm-1-pc-s-1668700.html
+CrimpingPliersFerrules:
+    Name: Crimping Pliers for ferrules
+    Suppliers:
+        Conrad:
+            PartNo: 2620419
+            Link: https://www.conrad.fr/fr/p/quadrios-22t006-22t006-pince-a-sertir-pour-embouts-de-cable-0-25-a-10-mm-2620419.html?searchType=SearchRedirect            
+CrimpingPliers:
+    Name: Crimping Pliers
+    Suppliers:
+        Conrad:
+            PartNo: 841453
+            Link: https://www.conrad.fr/fr/p/c-k-430024-pince-a-sertir-pour-cosses-isolees-pour-connecteurs-males-1-5-a-6-mm-841453.html?searchType=SearchRedirect
+SolderingIron:
+    Name: Soldering Iron
+WireStripper:
+    Name: Wire stripper
+    Suppliers:
+        Conrad:
+            PartNo: 51000005
+            Link: https://www.conrad.fr/fr/p/denudeur-de-fil-weicon-tools-no-5-51000005-0-2-a-6-mm-awg-10-a-24-1-pc-s-804037.html
+3dprinter:
+    Name: FDM 3D printer
+    Description: > 
+        Any FDM 3D printer should do the job. Just make sure 
+        that the bed side is longer than the case length, that is 175 mm.
+    Specs:
+        Minimum bed size : 175 mm x 175 mm x 65 mm
+M4x10PanSteel:
+    Name: M4x10 Pan Head Steel
+M4x10PanSteel2:
+    Name: M4x10 Pan Head Steel
+    Description: >
+        This is lots of text
+        about some screws?
+    Specs:
+        Head: Pan
+        Length: 10 mm
+        Material: Stainless Steel
+        Pitch: 0.7
+    Suppliers:
+        RS:
+            PartNo: 528-817
+            Link: https://uk.rs-online.com/web/p/machine-screws/0528817/
+        McMasterCarr:
+            PartNo: 90116A207
+            Link: https://www.mcmaster.com/90116A207
+Screwdriver_Philips_No2:
+    Name: No. 2 Phillips screwdriver
+    Description: >
+        No2 Phillips screwdriver. This is the correct size
+        form an M4 pan head screw
+    Specs:
+        Drive Size: No. 2
+        
